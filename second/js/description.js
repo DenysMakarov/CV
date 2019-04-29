@@ -1,0 +1,1 @@
+alert('This site was wrote only by HTML5 and CSS3 without JavaScript, PhP and different frameworks except SlickSlider. Also it has not got analogues and anything .psd models and other. All thoughts whitch come about this site immediately wrote down and transformed only in the cod. Also this project has adaptation for all items ')
