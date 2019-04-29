@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a7e1d87-f095-4d57-9c16-febc130664c1" name="Default Changelist" comment="" />
+    <list default="true" id="8a7e1d87-f095-4d57-9c16-febc130664c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/slider/images/28_news.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/Sportshold.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/address.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/address_fon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/auction.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/bigelephant.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/coffee-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/dp_map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/dp_office.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/el.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/file.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/food.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/last.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/mac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/mobi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/mobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/staff_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/surface_desktop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/time.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/title_img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/worker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/zp_map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/zpoffice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/zpschool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slider/images/zpschool_2.png" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
+            <state relative-caret-position="667">
               <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
             </state>
           </provider>
@@ -25,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="98" column="43" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
+            <state relative-caret-position="3">
+              <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -125,14 +152,16 @@
       <workItem from="1556519389135" duration="8912000" />
       <workItem from="1556545231754" duration="30000" />
       <workItem from="1556545315599" duration="336000" />
+      <workItem from="1556545678575" duration="338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9661000" />
+    <option name="totallyTimeSpent" value="9999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="733" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23876405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -157,6 +186,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/first/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12489">
@@ -164,17 +200,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="98" column="43" selection-start-line="98" selection-start-column="43" selection-end-line="98" selection-end-column="43" />
+        <state relative-caret-position="3">
+          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
         </state>
       </provider>
     </entry>
