@@ -95,6 +95,9 @@
     background-image: url(../img/Restaurant.jpg);
 }
 
+.first_work_3{
+    background-image: url(../img/slider.jpg);
+}
 
 .first_work_4{
     -moz-filter:sepia(100%);
@@ -103,7 +106,6 @@
     -ms-filter:sepia(100%);
     filter:sepia(100%);
     transition: 1.5s;
-
     background-image: url(../img/game.jpg);
 }
 .first_work_wrap:hover>.first_work_4{
