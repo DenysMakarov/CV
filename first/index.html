@@ -13,32 +13,41 @@
     <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick-theme.css"/>
 
-    <!--<link rel="stylesheet" type="text/css" href="es5-sham.min.js"/>-->
-    <!--<link rel="stylesheet" type="text/css" href="es5-shim.min.js"/>-->
-
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-
-    <!--<link rel="stylesheet" href="fontawesome-free-5.0.6/web-fonts-with-css/css/fontawesome-all.min.css">-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
 
+<!--PouPap-->
+<div class="PouPap" id="PouPap"></div>
+<!--PouPap-->
 
-<!-- NAN -->
+<!--Cart-->
+<div class="cart_list" id="cart_list"></div>
+<!--Cart-->
+
+<!--Cart fixed-->
+<div class="fixed_cart" id="fixed_cart"></div>
+<!--Cart fixed-->
+
+
+<!-- NAV -->
 <div class="header_nav_wrap">
     <div class="header_nav">
         <nav>
             <ul class="header_nav_bar">
-                <li class="nav_item item_1">Support</li>
-                <li class="nav_item item_2">Delivery</li>
-                <li class="nav_item">Legal</li>
-                <li class="nav_item">About Us</li>
+                <li class="nav_item item_1"><a href="#contacts">Support</a></li>
+                <li class="nav_item item_2"><a href="#contacts">Delivery</a></li>
+                <li class="nav_item"><a href="#news">News</a></li>
+                <li class="nav_item"><a href="#contacts">About Us</a></li>
             </ul>
             <ul class="header_nav_bar_right">
-                <li class="nav_item"><i class="basket fas fa-shopping-basket"></i> $250</li>
-                <li class="nav_item">Login</li>
-                <li class="nav_item">Register</li>
+                <li class="nav_item" id="nav_item_cart"><i class="basket fas fa-shopping-basket" id="basket"></i><span
+                        id="cart_summarise_prise">$0</span></li>
+                <li class="nav_item"><a href="#js">Login</a></li>
+                <li class="nav_item"><a href="#js">JS Content</a></li>
             </ul>
         </nav>
     </div>
@@ -46,7 +55,7 @@
 <div class="top_menu_425">
     <p class="menu_425_item item_425_1">Support</p>
     <p class="menu_425_item item_425_2">Delivery</p>
-    <p class="menu_425_item item_425_3">Legal</p>
+    <p class="menu_425_item item_425_3"><a href="#news">News</a></p>
     <p class="menu_425_item item_425_4">About Us</p>
 </div>
 
@@ -75,9 +84,10 @@
     </div>
 </div>
 <div class="under_nav_425">
-    <p class="menu_425_item item_425_5">Login</p>
-    <p class="menu_425_item item_425_6">Register</p>
-    <p class="menu_425_item item_425_7"><i class="basket fas fa-shopping-basket"></i> $250</p>
+    <p class="menu_425_item item_425_5"><a href="#js">Login</a></p>
+    <p class="menu_425_item item_425_6"><a href="#js">JS Content</a></p>
+    <p class="menu_425_item item_425_7"><i class="basket fas fa-shopping-basket" id="basket425"></i><span
+            id="cart_summarise_prise425">$0</span></p>
     <p class="menu_425_item item_425_8"></p>
     <div class="add_menu">
         <div class="drop_menu">
@@ -90,11 +100,10 @@
         </div>
     </div>
 </div>
-<!-- NAN -->
+<!-- NAV -->
 
 
-<!-- MAIN CONTENT -->
-
+<!-- MAIN CONTENT  => only HTML / CSS-->
 <div class="undernav_cover_wrap">
     <div class="undernav_cover">
         <div class="undernav_cover_left">
@@ -123,7 +132,6 @@
 </div>
 
 <figure class="main_discription">
-
     <div class="main_discription_top">
         <div class="main_discription_top_left_shoes">
 
@@ -430,14 +438,14 @@
 </div>
 <!-- MAIN CONTENT -->
 
-
 <!--Js content-->
+<a name="js" href=""></a>
 
-<div class="js_content_box_wrap">
-    <div class="js_content_box">
+<div class="js_content_box_wrap" id="js_content_box_wrap">
+    <div class="js_content_box" id="js_content_box">
 
         <div class="login_box" id="login_box">
-            <div class="js_content_title">
+            <div class="js_content_title js_login_title" id="js_login_title">
                 <div class="over_slider_text over_slider_text_login">
                     <p class="over_slider_text_word">L</p>
                     <p class="over_slider_text_word">O</p>
@@ -464,30 +472,103 @@
                 </div>
             </div>
 
+            <!---->
+            <div class="js_content_title js_range_title" id="js_range_title">
+                <div class="over_slider_text over_slider_text_login">
+                    <p class="over_slider_text_word">S</p>
+                    <p class="over_slider_text_word">H</p>
+                    <p class="over_slider_text_word">O</p>
+                    <p class="over_slider_text_word">E</p>
+                    <p class="over_slider_text_word">S</p>
+                    <p class="over_slider_text_word"></p>
+                    <p class="over_slider_text_word">R</p>
+                    <p class="over_slider_text_word">A</p>
+                    <p class="over_slider_text_word">N</p>
+                    <p class="over_slider_text_word">G</p>
+                    <p class="over_slider_text_word">E</p>
+                </div>
+                <div class="over_slider_text_shadow">
+                    <p class=" over_slider_text_word_shadow">S</p>
+                    <p class=" over_slider_text_word_shadow">H</p>
+                    <p class=" over_slider_text_word_shadow">O</p>
+                    <p class=" over_slider_text_word_shadow">E</p>
+                    <p class=" over_slider_text_word_shadow">S</p>
+                    <p class=" over_slider_text_word_shadow"></p>
+                    <p class=" over_slider_text_word_shadow">R</p>
+                    <p class=" over_slider_text_word_shadow">A</p>
+                    <p class=" over_slider_text_word_shadow">N</p>
+                    <p class=" over_slider_text_word_shadow">G</p>
+                    <p class=" over_slider_text_word_shadow">E</p>
+                </div>
+            </div>            <!---->
 
             <div class="login_content">
                 <form action="" class="login_form">
 
-                    <div class="email_box">
+                    <div class="email_box" id="email_box">
                         <label for="email" class="label_title">email</label>
-                        <input type="text" name="email" id="check_email" class="check_email" placeholder="Enter email please">
+                        <input type="text" name="email" id="check_email" class="check_email"
+                               placeholder="Enter email please">
                         <div class="error_email" id="error_email"></div>
                     </div>
 
-                    <div class="password_box">
+                    <div class="password_box" id="password_box">
                         <label for="password" class="label_title">password</label>
-                        <input type="password" name="password" id="check_password" class="check_password" placeholder="Enter password please">
+                        <input type="password" name="password" id="check_password" class="check_password"
+                               placeholder="Enter password please">
                         <div class="error_password" id="error_password"></div>
                     </div>
 
                     <button type="click" id="button_submit" class="button_submit button_submit_untouch">SUBMIT</button>
+                    <button class="show_content button_submit_touch" id="show_content">You will see main content after
+                        registration
+                    </button>
 
                 </form>
             </div>
         </div>
-        <button class="show_content button_submit_touch" id="show_content">You will see main content after registration</button>
+        <!--<button class="show_content button_submit_touch" id="show_content">You will see main content after registration</button>-->
 
-        <div class="jsItem_box"></div>
+        <div class="jsItem_box" id="jsItem_box">
+            <div class="jsItem_box_wrap" id="jsItem_box_wrap">
+                <div class="search_content">
+                    <!--<div class="search_content_left"></div>-->
+                    <div class="search_content_center">
+                        <input type="search " class="search" id="search" placeholder="Search">
+                        <button class="btn_search" id="btn_search">Search</button>
+                    </div>
+                    <div class="search_content_right">
+                        <button class="logout" id="logout">LOGOUT</button>
+                    </div>
+                </div>
+
+                <div class="option_content">
+                    <div class="buttom_option_box">
+                        <div class="buttom_option" id="buttom_all">All</div>
+                    </div>
+                    <div class="buttom_option_box">
+                        <div class="buttom_option" id="buttom_man">MAN</div>
+                    </div>
+                    <div class="buttom_option_box">
+                        <div class="buttom_option" id="buttom_woman">WOMAN</div>
+                    </div>
+                    <div class="buttom_option_box">
+                        <div class="buttom_option" id="buttom_children">CHILDREN</div>
+                    </div>
+                    <div class="buttom_option_box">
+                        <div class="buttom_option" id="buttom_test">TEST</div>
+                    </div>
+
+                </div>
+
+                <div class="range_content" id="range_content">
+                    <p class="amountItem" id="amountItem"></p>
+                    <div class="range_content_box" id="range_content_box"></div>
+                    <div class="pag_box" id="pag_box"></div>
+                </div>
+
+            </div>
+        </div>
 
     </div>
 </div>
@@ -497,7 +578,7 @@
 
 <!-- POSTS -->
 <div class="comments_box">
-    <div class="comments_box_wrap"></div>
+    <div class="comments_box_wrap" id="comments_box_wrap"></div>
     <div class="comments_box_post">
 
         <div class="comments_box_post_face comments_box_post_face_first">
@@ -573,7 +654,7 @@
 <!-- POSTS -->
 
 <!-- SLIDER -->
-
+<a name="news"></a>
 <div class="over_slider_text">
     <p class="over_slider_text_word">L</p>
     <p class="over_slider_text_word">A</p>
@@ -889,6 +970,8 @@
 
 
 <!-- FOOTER -->
+<a name="contacts"></a>
+
 <footer class="footer">
     <div class="footer_row_one">
         <div class="footer_row_one_item footer_item_1">
@@ -1063,8 +1146,13 @@
 <!-- FOOTER -->
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!--<script src="app.js"></script>-->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
+
 <!--<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
 <script src="app.js"></script>
 </body>
