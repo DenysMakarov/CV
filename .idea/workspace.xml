@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a7e1d87-f095-4d57-9c16-febc130664c1" name="Default Changelist" comment="" />
+    <list default="true" id="8a7e1d87-f095-4d57-9c16-febc130664c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+            <state relative-caret-position="332">
+              <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -35,15 +38,15 @@
         <option value="$PROJECT_DIR$/second/css/main.css" />
         <option value="$PROJECT_DIR$/second/js/description.js" />
         <option value="$PROJECT_DIR$/second/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/slider/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="733" />
+    <option name="width" value="822" />
     <option name="height" value="816" />
   </component>
   <component name="ProjectView">
@@ -107,14 +110,16 @@
       <workItem from="1556550756470" duration="2014000" />
       <workItem from="1557057156538" duration="270000" />
       <workItem from="1560018875048" duration="319000" />
+      <workItem from="1560063458745" duration="68000" />
+      <workItem from="1560950549028" duration="221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15768000" />
+    <option name="totallyTimeSpent" value="16057000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="733" height="816" extended-state="0" />
+    <frame x="0" y="23" width="822" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19101124" />
@@ -129,7 +134,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -204,8 +209,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        <state relative-caret-position="332">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
         </state>
       </provider>
     </entry>

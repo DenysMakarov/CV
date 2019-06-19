@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link rel="shortcut icon" href="images/shoe_ico.png" type="image/x-icon">-->
+    <title>Game</title>
+    <link rel="stylesheet" href="normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick-theme.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+
+
+
+<div class="game_panel_wrap">
+
+    <div class="start_panel" id="start_panel">
+        <div class="btn_play_wrap" id="btn_play_wrap">
+            <div class="btn_play_left"></div>
+            <div class="btn_play_centre"><p class="btn_play_text">PLAY</p></div>
+            <div class="btn_play_right"></div>
+        </div>
+    </div>
+
+
+    <div class="game_description_block" id="game_description_block">
+        <div class="game_description game_description_left" id="game_description_left"></div>
+        <div class="game_description game_description_center">
+
+            This is a card game about Mech Warriors. <br>
+            Your`s goal is to defeat the team of computer and will not overweight your spaceship.
+            Each card has a weight and point of damage. You need to get as many cards as afford your`s spaceship.
+            Sometimes computer fears to overweight own spaceship, don`t lose your`s opportunities to defeat enemies.
+            If you take overweight your spaceship will fall and destroy. <br>
+            <p>Weight which spaceship can take is only until 21 tonnes.</p>
+            Good luck!!!
+
+
+            <div class="button_disapear_game_description"id="button_disapear_game_description">OK</div>
+
+        </div>
+        <div class="game_description game_description_right" id="game_description_right"></div>
+
+    </div>
+
+
+    <div class="game_panel" id="game_panel">
+
+        <div class="resultWAR_wrap" id="resultWAR_wrap">
+            <div class="resultWAR" id="resultWAR">
+                <div class="resultWAR_blocks resultWAR_left"></div>
+                <div class="resultWAR_blocks resultWAR_center">
+                    <div class="points_block comp_points">
+                        <div class="points_block_text" id="points_block_text_comp">20</div>
+                    </div>
+                    <div class="desc-result_war" id="desc-result_war">You WIN</div>
+                    <div class="points_block fellow_points">
+                        <div class="points_block_text" id="points_block_text_fellow">21</div>
+                    </div>
+                </div>
+                <div class="resultWAR_blocks resultWAR_right"></div>
+            </div>
+            <div class="button_again" id="button_again">TRY AGAIN</div>
+        </div>
+
+        <div class="left_block_wrap">
+
+            <div class="left_block" id="left_block">
+                <div class="war_control_block war_control_comp">
+                    <div class="war_control_damage" id="wcdComp">D: ?</div>
+                    <div class="war_control_waight" id="wcwComp">W: ?</div>
+                </div>
+
+                <div class="btn_take_cards" id="btn_take_cards">
+
+                    <div class="animation_mix_card animation_mix_card_1">
+                        <div class="animation_mix_card_back"></div>
+                    </div>
+                    <div class="animation_mix_card animation_mix_card_2">
+                        <div class="animation_mix_card_back"></div>
+                    </div>
+                    <div class="animation_mix_card animation_mix_card_3">
+                        <div class="animation_mix_card_back"></div>
+                    </div>
+
+                    <p class="btn_take_cards_again" id="btn_take_cards_again">AGAIN</p>
+
+                    <div class="btn_cover" id="btn_cover_before">
+                        <div class="btn_cover_border"></div>
+                    </div>
+                    <div class="btn_cover" id="btn_cover_after">
+                        <div class="btn_cover_border"></div>
+                    </div>
+
+                </div>
+
+                <div class="war_control_block war_control_fellow">
+                    <div class="war_control_damage" id="wcdFellow">D: 0</div>
+                    <div class="war_control_waight" id="wcwFellow">W: 0</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="center_block_wrap">
+            <div class="center_block" id="center_block">
+                <div class="comp_cards_wrap">
+                    <div class="comp_cards" id="comp_cards"></div>
+                </div>
+                <div class="my_cards_wrap">
+                    <div class="my_cards" id="my_cards"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right_block_wrap">
+            <div class="right_block" id="right_block">
+                <div class="pass_btn_wrap" id="pass_btn_wrap">
+                    <p class="win_block compWin" id="compWin">Wins: 0</p>
+                    <p class="win_block fellowWin" id="fellowWin">Wins: 0</p>
+                    <div class="pass_btn pass_btn_after" id="pass_btn_after"></div>
+                    <div class="pass_btn pass_btn_before" id="pass_btn_before">Take Card</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
+
+<script src="app.js"></script>
+</body>
+</html>
